@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lavishly+Yours&family=Merriweather:ital@0;1&family=Noto+Serif+Display:wght@100;400&family=Playfair+Display:ital@0;1&family=Raleway:ital,wght@0,100;0,200;1,100&family=Saira+Condensed:wght@200&family=Source+Sans+Pro:wght@200&family=Space+Mono&family=Work+Sans:wght@400;500;800&display=swap');
+
+*, 
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: lightgrey;
+}
+.title{
+    font-family: 'Merriweather', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    padding-top: 15px;
+}
+.container{
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    background: #E8C7C8;
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%, -50%);
+    
+}
+/*Add task */
+#newtask{
+    position: relative;
+    padding: 35px 20px;
+}
+
+#newtask input{
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+#newtask input:focus{
+    outline: none;
+    border-color: #E8C7C8;
+}
+#newtask button{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #111111;
+    border: none;
+    color: #f5757a;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+/*task*/
+#task{
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+.task{
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+    background-color: #c5e1e6;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+
+}
+.task span{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.task button{
+    background-color: #B76465;
+    color: #404040;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    
+}
